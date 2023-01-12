@@ -1,0 +1,14 @@
+<HTML>
+    <head>
+        <script src="/script"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    </head>
+    <body onload="genChart()" style="text-align:center;">
+        <div id="div_bar"></div>
+        <div id="div_pie"></div>
+        
+        Hour: <input type="text" id="hour"></input>
+        <button onclick="getHourData()">Plot</button>
+        <div id="div_custom"></div>
+    </body>
+</HTML>
